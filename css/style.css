@@ -1,0 +1,25 @@
+/* *{
+    outline: 1px dotted red;
+} */
+
+#submitBtn {
+    width: 100px;
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+p {
+    text-align: center;
+}
+
+#password-input{
+    display: flex;
+}
+
+#result-cont{
+    margin-top: 10%;
+}
+

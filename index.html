@@ -18,13 +18,26 @@
             </div>
         </div>
         <div class="row">
-            <div class="col text-center">
-                <p>Please create a password that contains lowercase and uppercase leters, and a special character.</p>
-                <input type="password" value="" placeholder="Enter Passsword" id="pswd">
-                <input type="password" value="" placeholder="Re-Enter Password" id="pswd2">
-                <p class="btn btn-danger text-capitalize" id="submitBtn">submit</p>
-                <p id="result"></p>
-            </div>
+            <p>Please create a password that contains lowercase and uppercase leters, and a special character.</p>
+        </div>
+        <div class="row" id="password-input">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="password">Password</span>
+                <input type="password" class="form-control" value="" placeholder="Enter Passsword" aria-label="Username" aria-describedby="basic-addon1" id="pswd">
+              </div>
+            
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="password2">Re-Enter Password</span>
+                <input type="password" class="form-control" value="" placeholder="Re-Enter Passsword" aria-label="Username" aria-describedby="basic-addon1" id="pswd2">
+              </div>
+            
+        </div>
+        <div class="row">
+            <p class="btn btn-danger text-capitalize" id="submitBtn">submit</p>
+        </div>
+
+        <div class="row" id="result-cont">
+            <p id="result"></p>
         </div>
     </div>
     
