@@ -30,6 +30,7 @@ const test =()=> {
     // -----------------------------------------------------
     let password = document.getElementById('pswd').value;
     console.log(password);
+    let password2 = document.getElementById('pswd2').value;
 
     // result
     // -----------------------------------------------------
@@ -51,7 +52,7 @@ const test =()=> {
 
     // Test Inputs
     // -----------------------------------------------------
-    if (password) {
+    if (password === password2) {
         if (password.length <= min_weak_password || (input_weak || input_medium || input_strong)) {
 
             result.innerText = 'Your password is too weak.';
